@@ -9,6 +9,7 @@
         <title>7Ds | Home</title>
         <link rel="icon" href="img/brand/brand.png" sizes="16x16">
 
+
         <!--build:css css/styles.min.css-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -94,7 +95,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="brand-scrolled avatar" href="#">
+                    <a class="brand-scrolled avatar" href="index.html/#header">
                         <img class="img-responsive" src="img/brand/brand.png">
                     </a>
                 </div>
@@ -103,12 +104,11 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">home</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">projects</a></li>
-                        <li><a href="#">testimonials</a></li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="#">contact us</a></li>
+                        <li class="active"><a href="index.html">home</a></li>
+                        <li><a href="service-page.html">our services</a></li>
+                        <li><a href="products.html">projects</a></li>
+                        <li><a href="blog-page.html">blog</a></li>
+                        <li><a href="contact-page.html">contact us</a></li>
                     </ul>
                     
                 </div><!-- /navbar-collapse -->
@@ -116,8 +116,8 @@
         </nav>
         <!-- end navbar -->
         
-        
-        <section class="header-video">
+        <!-- start header-video -->
+        <section class="header-video" id="header">
             <div class="container">
                 <div class="row">
                     <div class="rvk">
@@ -134,8 +134,9 @@
                 </div>
             </div>
         </section>
+        <!-- end header-video -->
         
-        
+        <!-- start y-us-section -->
         <section class="y-us-section">
             <div class="container">
                 <div class="row">
@@ -242,8 +243,9 @@
                 </div>
             </div>
         </section>
+        <!-- end y-us-section -->
         
-        
+        <!-- start products -->
         <section class="products">
             <div class="container">
                 <div class="row">
@@ -370,7 +372,8 @@
                 </div>
             </div>
         </section>
-                
+        <!-- end products -->
+        
         <!-- start offers section -->
         <section class="offers">
             <div class="container">
@@ -493,7 +496,7 @@
                         <p>In enim justo rhoncus ut imperdiet a venenatis vitae justo</p>
                         <span class="y-us-title-border"></span>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-md-4">
                         <div class="post">
                             <div class="post-img-content">
                                 <img src="http://placehold.it/460x250/2abcef/ffffff&text=Shaban" class="img-responsive" />
@@ -514,7 +517,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-md-4">
                         <div class="post">
                             <div class="post-img-content">
                                 <img src="http://placehold.it/460x250/2abcef/ffffff&text=Fatma" class="img-responsive" />
@@ -535,7 +538,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-md-4">
                         <div class="post">
                             <div class="post-img-content">
                                 <img src="http://placehold.it/460x250/2abcef/ffffff&text=Karamany" class="img-responsive" />
@@ -586,90 +589,261 @@
         </section>
         <!-- end our-clients -->
         
+        <!-- start our team section -->
         <section class="team">
             <div class="container">
                 <div class="row">
-                    <div class="item-content text-center">
-                        <h1>our team</h1>
-                        <p>In enim justo rhoncus ut imperdiet a venenatis vitae justo</p>
-                        <span class="y-us-title-border"></span>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="column">
-                            <div class="imgBox">
-                                <img class="img-responsive" src="img/persons/5.jpg" />
-                            </div>
-                            <div class="details">
-                                <h3>member name<br/><span>CEO and founder</span></h3>
-                                <ul>
-                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                </ul>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3>our products</h3>
+                            <span class="y-us-title-border"></span>
+                        </div>
+                        <div class="col-xs-12 col-md-3">
+                            <!-- Controls -->
+                            <div class="controls pull-right">
+                                <a class="left fa fa-chevron-left btn btn-info" href="#carousel-example2" data-slide="prev"></a>
+                                <a class="right fa fa-chevron-right btn btn-info" href="#carousel-example2" data-slide="next"></a>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-md-3">
-                        <div class="column">
-                            <div class="imgBox">
-                                <img class="img-responsive" src="img/persons/5.jpg" />
+                    <div id="carousel-example2" class="carousel slide text-center" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="details">
-                                <h3>member name<br/><span>CEO and founder</span></h3>
-                                <ul>
-                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                </ul>
+                            
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-xs-12 col-sm-6 col-md-3">
+                                        <div class="column">
+                                            <div class="imgBox">
+                                                <img class="img-responsive" src="img/persons/5.jpg" />
+                                            </div>
+                                            <div class="details">
+                                                <h3>shaban abd al shafy<br/><span>front end developer</span></h3>
+                                                <ul>
+                                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+                                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
                         </div>
                     </div>
-                    
-                    <div class="col-md-3">
-                        <div class="column">
-                            <div class="imgBox">
-                                <img class="img-responsive" src="img/persons/5.jpg" />
-                            </div>
-                            <div class="details">
-                                <h3>member name<br/><span>CEO and founder</span></h3>
-                                <ul>
-                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-3">
-                        <div class="column">
-                            <div class="imgBox">
-                                <img class="img-responsive" src="img/persons/5.jpg" />
-                            </div>
-                            <div class="details">
-                                <h3>member name<br/><span>CEO and founder</span></h3>
-                                <ul>
-                                    <li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-google-plus" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
-                                    <li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
         </section>
+        <!-- end our team section -->
+        
+        <!-- start footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3  col-md-4 col-sm-4">
+                        <div class="footer_dv">
+                            <h4>About us</h4>
+                            <span class="y-us-title-border"></span>
+                            <img class="img-responsive" src="http://via.placeholder.com/250x150" alt="about">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4" id="contact">
+                        <div class="footer_dv">
+                            <h4>contact us</h4>
+                            <span class="y-us-title-border"></span>
+                            <form id="contact" action="" method="post">
+                                <fieldset>
+                                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                                </fieldset>
+                                <fieldset>
+                                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                                </fieldset>
+                                <fieldset>
+                                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                                </fieldset>
+                                <fieldset>
+                                    <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
+                                </fieldset>
+                                <fieldset>
+                                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4">
+                        <div class="footer_dv">
+                            <h4>contact info</h4>
+                            <span class="y-us-title-border"></span>
+                            <ul>
+                                <li>123 street st, naser city</li>
+                                <li>+2055554512554</li>
+                                <li>info@7ds.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4">
+                        <div class="footer_dv explore">
+                            <h4>explore</h4>
+                            <span class="y-us-title-border"></span>
+                            <ul>
+                                <li><a class="a-font" href="#">Pineapple</a></li>
+                                <li><a class="a-font" href="#">Pineapple</a></li>
+                                <li><a class="a-font" href="#">Pineapple</a></li>
+                                <li><a class="a-font" href="#">Pineapple</a></li>
+                                <li><a class="a-font" href="#">Pineapple</a></li>
+                                <li><a class="a-font" href="#">Pineapple</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<footer class="py-5 bg-dark text-center">
+          <div id="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                          <p><a href="">&copy; 2017 7ds</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>-->
+        <!-- end footer -->
         
         <!-- start scroll-top-button -->
         <!--<div id="scroll-top">
@@ -677,12 +851,15 @@
         </div>-->
         <!-- start scroll-top-button -->
         
+        
         <!--build:js js/main.min.js -->
         <script src="js/jquery-3.2.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/smooth-scroll.js"></script>
+        <script src="js/jquery.shuffle.min.js"></script>
         <script src="js/custom.js"></script>
         <!-- endbuild -->
+        
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
         <!-- smooth scroll -->
